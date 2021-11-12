@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="dashboard dashboard-login">
+
+  <header class="dashboard_h dashboard_h-login">
+    <div class="container container-sm">
+      <a href="#" class="dashboard_h-logo">
+        <span>Л</span>Лектариум <sup>&reg;</sup>
+      </a>
+      <span class="dashboard_h-lk">Личный кабинет</span>
+      <div class="dashboard_h-r">
+        <div>
+          <a href="#" class="dashboard_h-btn dashboard_h-btn-wb">
+            О нас
+          </a>
+        </div>
+        <div>
+          <a href="#" class="dashboard_h-btn">
+            Связаться
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="dashboard_auth">
+  <div class="container container-sm">
+    <div class="row">
+      <div class="col col-6">
+        <div class="auth">
+          <div class="auth_h">
+            <a href="#" data-auth="login" class="active">Вход</a>
+            <a href="#" data-auth="reg">Регистрация</a>
+          </div>
+          <div class="auth_body">
+            <div class="auth_block active" data-auth-block="login">
+              <form class="" action="index.html" method="post">
+                <div class="form-group">
+                  <input type="text" placeholder="Номер телефона">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Пароль">
+                </div>
+                <div class="auth_f">
+                  <button type="submit">Войти</button>
+                  <div>
+                    <a href="#" class="auth_forgot" data-auth="forgot">Забыли пароль?</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="auth_block" data-auth-block="reg">
+              <form class="" action="index.html" method="post">
+                <div class="form-group">
+                  <input type="text" placeholder="Номер телефона">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Пароль">
+                </div>
+                <div class="auth_f">
+                  <button type="submit">Регистрация</button>
+                </div>
+              </form>
+            </div>
+            <div class="auth_block" data-auth-block="forgot">
+              <form class="" action="index.html" method="post">
+                <p class="text-center">Введите ваш E-mail для восстановления пароля.</p>
+                <div class="form-group">
+                  <input type="text" placeholder="E-mail">
+                </div>
+                <div class="auth_f">
+                  <button type="submit">Восстановить пароль</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-6">
+        <div class="auth_slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide auth_slider-item">
+                <div class="auth_slider-item_img">
+                  <img src="img/user.jpg">
+                </div>
+                <h3>Бесплатные уроки</h3>
+                <p>Бесплатные вебинары каждую неделю по каждому предмету ЕГЭ</p>
+              </div>
+              <div class="swiper-slide auth_slider-item">
+                <div class="auth_slider-item_img">
+                  <img src="img/user.jpg">
+                </div>
+                <h3>Бесплатные уроки</h3>
+                <p>Бесплатные вебинары каждую неделю по каждому предмету ЕГЭ</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup" data-popup="theme">
+  <div class="popup_wrap">
+    <a href="#" class="popup_close">
+      <img src="img/icons/close.svg" class="svg">
+    </a>
+    <div class="popup_ajax">
+      <h4 class="popup_title">Микроэволюция</h4>
+      <div class="popup_theme-t">
+        <div>
+          <p class="popup_theme-cat">Микроэволюция</p>
+          <p class="popup_theme-tag">Биология</p>
+          <a href="#" class="popup_theme-man">
+            <img src="img/user.jpg">
+            <div>
+              <span>Преподаватель:</span>
+              <b>Валерия Абдрахманова</b>
+            </div>
+          </a>
+        </div>
+        <div class="popup_theme-img">
+          <img src="img/user.jpg">
+        </div>
+      </div>
+      <div class="popup_theme-b">
+        <strong>О теме</strong>
+        <p>Тему “Микроэволюция” по БИОЛОГИИ содержит все подробные темы об эволюции, включая микроэволюцию, макроэволюцию,эволюцию человека и многое многое другое!  Будет круто, присоединяйся!</p>
+        <div class="popup_theme-rating">
+          <b>Рейтинг: 8.9</b>
+          <a href="#" class="active"><img src="img/icons/star.svg" class="svg"></a>
+          <a href="#" class="active"><img src="img/icons/star.svg" class="svg"></a>
+          <a href="#" class="active"><img src="img/icons/star.svg" class="svg"></a>
+          <a href="#" class="active"><img src="img/icons/star.svg" class="svg"></a>
+          <a href="#"><img src="img/icons/star.svg" class="svg"></a>
+        </div>
+        <a href="#" class="popup_theme-more">Подробнее</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/swiper/js/swiper.min.js"></script>
+<script src="../../node_modules/simplebar/dist/simplebar.min.js"></script>
+<script src="../../node_modules/select2/dist/js/select2.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
